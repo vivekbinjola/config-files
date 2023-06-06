@@ -7,4 +7,7 @@ spring:
     password: ${DATABASE_PASSWORD}
     url: ${DATABASE_URL}
     username: ${DATABASE_USERNAME}
+server:
+  servlet:
+    context-path: /owners
   
