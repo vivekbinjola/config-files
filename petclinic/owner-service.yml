@@ -1,3 +1,10 @@
 spring:
   application:
     name: owner-service
+  datasource:
+    hikari:
+      maximum-pool-size: 2
+    password: ${DATABASE_PASSWORD}
+    url: ${DATABASE_URL}
+    username: ${DATABASE_USERNAME}
+  
