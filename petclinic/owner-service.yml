@@ -7,6 +7,7 @@ spring:
     url: ${DATABASE_URL}
     password: ${DATABASE_PASSWORD}
     username: ${DATABASE_USERNAME}
+message: "hello from github"
 server:
   servlet:
     context-path: /owners
