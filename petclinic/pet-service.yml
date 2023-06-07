@@ -2,15 +2,11 @@ server:
   port: 8010
   servlet:
     context-path: /pets
- 
+message: Hello from github
 spring:
- application:
-   name: pet-service
- datasource:
-   hikari:
-     maximum-pool-size: 2
-   url: ${DATABASE_URL}
-   password: ${DATABASE_PASSWORD}
-   username: ${DATABASE_USERNAME}
-
-message: "hello from github"
+  datasource:
+    url: ${DATABASE_URL}
+    username: ${DATABASE_USERNAME}
+    password: ${DATABASE_PASSWORD}
+    hikari:
+      maximum-pool-size:  2
